@@ -80,7 +80,7 @@ Configuration
 =============
 
 Dropwizard provides a number of built-in configuration parameters. They are
-well documented in the `example project's configuration`__ and :ref:`configuration reference <man-configuration>`.
+well documented in the `example project's configuration`__ and :ref:`configuration refererence <man-configuration>`.
 
 .. __: https://github.com/dropwizard/dropwizard/blob/master/dropwizard-example/example.yml
 
@@ -357,6 +357,8 @@ For HTTP/2 servers you need to add an ALPN Conscrypt provider as a dependency.
     <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-conscrypt-server</artifactId>
+        <version>${jetty.version}</version>
+        <scope>test</scope>
     </dependency>
 
 .. _`Conscrypt`: https://github.com/google/conscrypt
