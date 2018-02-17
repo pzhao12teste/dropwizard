@@ -9,14 +9,7 @@ Dropwizard JDBI
 .. rubric:: The ``dropwizard-jdbi`` module provides you with managed access to JDBI_, a flexible and
             modular library for interacting with relational databases via SQL.
 
-.. _JDBI: http://jdbi.org/jdbi2/
-
-.. warning::
-
-    It is recommended that new projects use the :ref:`man-jdbi3` module. Existing projects
-    can update by following JDBI's `migration guide`_.
-
-.. _migration guide: http://jdbi.org/#_upgrading_from_v2_to_v3
+.. _JDBI: http://jdbi.org/
 
 Configuration
 =============
@@ -109,7 +102,7 @@ Usage
 We highly recommend you use JDBI's `SQL Objects API`_, which allows you to write DAO classes as
 interfaces:
 
-.. _SQL Objects API: http://jdbi.org/jdbi2/sql_object_overview/
+.. _SQL Objects API: http://jdbi.org/sql_object_overview/
 
 .. code-block:: java
 
